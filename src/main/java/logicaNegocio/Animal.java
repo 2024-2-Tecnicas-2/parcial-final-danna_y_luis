@@ -8,8 +8,10 @@ public abstract class Animal {
     
     public abstract String obtenerDieta();
     
-    public TipoHabitat obtenerHabitat() {
+    public TipoHabitat getHabitat() {
         return habitat;
     }
+
+    
     
 }

@@ -1,8 +1,8 @@
 package logicaNegocio;
 
 
-    class Leon extends Animal {
-    // Constructor que asigna el hábitat terrestre
+    public class Leon extends Animal {
+    
     public Leon() {
         this.habitat = TipoHabitat.TERRESTRE;
     }
